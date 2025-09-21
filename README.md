@@ -2,7 +2,7 @@
 
 So I am a 13 yo 8th grader and I recently got into networking,servers,linux,yk all that jazz,and I did this sysadmin experiment where I ran a school Minecraft server for about 2 weeks to see player behavior,complaints,etc. To see what I could fix and make the experience better for the users. And I am making this guide so if you wanted to make your own 24/7 minecraft server you could! making use of old hardware.
 
-#Step 1 Installing the OS.
+# Step 1 Installing the OS.
 You will need an old computer or laptop you don't use really anything with a decent amount of ram works. ( > 6 gigabytes of ram)
 
 You will then need to flash a USB thumb drive or a CD/DVD with an image of the Debian 13 distribution of Linux. 
