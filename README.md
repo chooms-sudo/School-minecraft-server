@@ -102,6 +102,8 @@ After that click on start and accept the EULA.
 
 Now go back to the appstore to install Playit Docker Web ( I used to use port forwarding but my bum ahh ISP shut down the port forwarding for some reason so yeah I gotta use tunnels now... Shoutout to Infinitum/Telnor)
 
+So go into the casaos app store and you'll want to install playit docker web 
+
 create a playit.gg account
 
 Then set up the agent, then set up the tunnel.
