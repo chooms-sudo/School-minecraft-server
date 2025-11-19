@@ -77,7 +77,7 @@ type in this exact command
 
 curl -fsSL https://get.casaos.io | sudo bash
 
-# Credit to IceWhaleTech make sure to check out their project(s) (https://github.com/IceWhaleTech/CasaOS)
+# Credits to IceWhaleTech make sure to check out their project(s) (https://github.com/IceWhaleTech/CasaOS)
 
 After that wait a couple of minutes for it to finish installing and come back once it's done.
 
