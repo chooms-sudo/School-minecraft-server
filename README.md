@@ -115,4 +115,38 @@ you will now get an IP at the top of the tunnel for example: (fitness-objectives
 
 now insert that IP into your minecraft Java edition and vuala, minecraft server.
 
-# THIS GUIDE IS NOT COMPLETED I WILL EDIT IT LATER COZ I GOT SCHOOL TMRW THX FOR READING UPDATE COMING SOON
+# Crossplay setup
+
+Now, this is IF you want your server to be crossplay ex.:(minecraft and bedrock) you need to install geyser.
+
+Go to [Geyser](geysermc.org)
+
+now download floodgate-spigot.jar and geyser-spigot.jar
+
+next in crafty go to files, and in the plugins folder insert those two filesand start the server.
+
+then stop the server once everything is finished loading, you need to go to the floodgate folder inside your plugins folder and download the key.pem file and then upload it to the geyser folder.
+
+Now go back to playit and do the same thing but with bedrock edition and it should give you an IP and port, you'll use that to enter.
+
+That's everything,thanks for reading !!
+
+# Extras
+
+If you want to customize your server even further, you can add plugins/mods, there should be plenty guides online.
+Also my personal favorite tweaks are in the server.properties.
+
+# REMEMBER TO CHANGE SPAWN PROTECTION TO 0 OR ELSE PROBLEMS WILL ARISE.
+
+You can change motd to change java edition's message on the server preview.
+
+Also for some extra customization points I would recommend adding a server icon, It needs to be 64x64 pixels.
+
+here is my server icon if ya'll are js lazy to make one 
+<img width="64" height="64" alt="server-icon" src="https://github.com/user-attachments/assets/d077ebf8-e52d-44ad-87da-5c4efe3e2293" />
+
+# Purpose of this Project
+I made this project because I believe something as simple as a minecraft server shouldn't be paid or require some fancy equipment.
+I believe that tech should not be something that is thrown away.
+Because if it turns on, then it still has a use.
+Thanks.
