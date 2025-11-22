@@ -140,7 +140,7 @@ Also my personal favorite tweaks are in the server.properties.
 
 You can change motd to change java edition's message on the server preview.
 
-Also for some extra customization points I would recommend adding a server icon, It needs to be 64x64 pixels.
+Also for some extra customization points I would recommend adding a server icon, It needs to be 64x64 pixels and needs to be named (server-icon.png)
 
 here is my server icon if ya'll are js lazy to make one 
 <img width="64" height="64" alt="server-icon" src="https://github.com/user-attachments/assets/d077ebf8-e52d-44ad-87da-5c4efe3e2293" />
