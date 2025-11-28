@@ -69,84 +69,13 @@ it will ask for your password and type it in.
 
 What sudo basically is, it's a command to run other commands as the root user (or admin) without having to log into the root user.
 
-Now you wanna type "sudo apt install curl" type y when prompted and let it finish.
+Now you wanna type "sudo apt install curl" type y when prompted and let it finish. trust me, we will need it later.
 
-Here comes the fun part, almost there...
+now create the server's directory for this run : mkdir (any name you want)
+in my case i chose mkdir fabric-server
 
-type in this exact command
+and then go into the directory you just created by running cd (name of the directory)
 
-curl -fsSL https://get.casaos.io | sudo bash
+now run this command to install java 21 which will make our server work (sudo apt install -y openjdk-21-jre-headless)
 
-# Credits to IceWhaleTech make sure to check out their project(s) (https://github.com/IceWhaleTech/CasaOS)
-
-After that wait a couple of minutes for it to finish installing and come back once it's done.
-
-You will now see (casaos is running at (192.16x.xxx)
-
-You want to type in that Ip into your browser.
-
-Once it loads, create your user.
-
-after that go into the app store and install "Crafty Controller"
-once crafty loads you want to click on forgot password and after that go back to the home screen without closing crafty, and click on the three dots on crafty controller and settings, after that at the top right click terminal and logs, then logs and copy the recovery password it usually looks like this: K98j-90wjh...
-
-After all of that you will want to go back to crafty then put the password in and where it says user type in "anti-lockout-user".
-
-You will be logged in and it's pretty clear how to set a passwd. (default user is admin)
-
-When you're done click on create new server and select java and select papermc as server type and the latest version.
-
-Choose Minecraft servers, choose your server name and then choose your minimum ram and max (I recommend minimum 1 gb and max 6gb)
-
-After that click on start and accept the EULA.
-
-Now go back to the appstore to install Playit Docker Web ( I used to use port forwarding but my bum ahh ISP shut down the port forwarding for some reason so yeah I gotta use tunnels now... Shoutout to Infinitum/Telnor)
-
-So go into the casaos app store and you'll want to install playit docker web 
-
-create a playit.gg account
-
-Then set up the agent, then set up the tunnel.
-
-choose minecraft Java servers.
-follow steps.
-
-you will now get an IP at the top of the tunnel for example: (fitness-objectives.gl.joinmc.link) something along those lines.
-
-now insert that IP into your minecraft Java edition and vuala, minecraft server.
-
-# Crossplay setup
-
-Now, this is IF you want your server to be crossplay ex.:(minecraft and bedrock) you need to install geyser.
-
-Go to [Geyser](geysermc.org)
-
-now download floodgate-spigot.jar and geyser-spigot.jar
-
-next in crafty go to files, and in the plugins folder insert those two filesand start the server.
-
-then stop the server once everything is finished loading, you need to go to the floodgate folder inside your plugins folder and download the key.pem file and then upload it to the geyser folder.
-
-Now go back to playit and do the same thing but with bedrock edition and it should give you an IP and port, you'll use that to enter.
-
-That's everything,thanks for reading !!
-
-# Extras
-
-If you want to customize your server even further, you can add plugins/mods, there should be plenty guides online.
-Also my personal favorite tweaks are in the server.properties.
-
-# REMEMBER TO CHANGE SPAWN PROTECTION TO 0 OR ELSE PROBLEMS WILL ARISE.
-
-You can change motd to change java edition's message on the server preview.
-
-Also for some extra customization points I would recommend adding a server icon, It needs to be 64x64 pixels and needs to be named (server-icon.png)
-
-here is my server icon if ya'll are js lazy to make one 
-<img width="64" height="64" alt="server-icon" src="https://github.com/user-attachments/assets/d077ebf8-e52d-44ad-87da-5c4efe3e2293" />
-
-# Purpose of this Project
-I made this project because I believe something as simple as a minecraft server shouldn't be paid or require some fancy equipment.
-I believe that tech should not be something that is thrown away.
-Because if it turns on, then it still has a use.
-Thanks.
+# ima finish this later i kno i said i alr finished it but casaos kinda stopped workng so now i gotta make it terminal based 🫩
